@@ -15,7 +15,6 @@ body {
 
 .container {
   display: flex;
-  border: 2px solid red;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -25,8 +24,8 @@ body {
 .content {
   background-color: #fff;
   border-radius: 15px;
-  width: 80%;
-  height: 50%;
+  width: 980px;
+  height: 60%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -49,15 +48,25 @@ body {
   text-transform: capitalize;
 }
 
-.title-primary{
+.title-primary {
   color: #fff;
+}
+
+.title-second {
+  color: #58af9b;
 }
 
 .description {
   font-size: 14px;
   font-weight: 300;
-  color: #fff;
   line-height: 30px;
+}
+
+.description-primary {
+  color: #fff;
+}
+.description-second {
+  color: #7f8c8d;
 }
 
 .btn {
@@ -68,11 +77,13 @@ body {
   padding: 10px 50px;
   cursor: pointer;
   font-weight: bold;
-
+  width: 150px;
+  align-self: center;
+  border: none;
 }
 
 .btn-primary {
-background-color: transparent;
+  background-color: transparent;
   border: 1px solid #fff;
 }
 
@@ -81,6 +92,16 @@ background-color: transparent;
   color: #58af9b;
 }
 
+.btn-second {
+  background-color: #58af9b;
+  border: #58af9b;
+}
+.btn-second:hover {
+  background-color:  #fff;
+  border: #58af9b;
+  color:#58af9b;
+
+}
 .first-content {
   display: flex;
 }
@@ -92,16 +113,46 @@ background-color: transparent;
 }
 
 .second-column {
-  flex: 2 0 auto
+  flex: 2 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
 
 .list-social-media {
   display: flex;
 }
 
-.form {
+.item-social-media {
+  border: 1px solid #bdc3c7;
+  border-radius: 50%;
+  width: 35px;
+  height:  35px;
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+  float: left;
+  line-height: 35px;   /*  centralizar item no círculo */
+}
+
+.item-social-media a{
+  color: #95a5a6;
+  text-align: center;
+}
+
+.form {            
   display: flex;
   flex-direction: column;
+  width: 55%;
+  
+}
+
+.form input {
+  height: 45px;
+  border: none;
+  background-color: #ecf0f1;
+  margin: 8px;
 }
 
 .second-content{
