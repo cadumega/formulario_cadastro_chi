@@ -17,7 +17,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   background-color: #ecf0f1;
 }
 
@@ -38,7 +38,9 @@ body {
   background-color: #58af9b ;
   width: 40%;
   height: 100%;
+  border-radius: 15px;
 
+  /* left: 60%; */
 }
 
 .title {
@@ -73,13 +75,14 @@ body {
   border-radius: 15px;
   text-transform: uppercase;
   color: #fff;
-  font-size: 10px;
+  font-size: 11px;
   padding: 10px 50px;
   cursor: pointer;
   font-weight: bold;
   width: 150px;
   align-self: center;
   border: none;
+  margin: 15px; 
 }
 
 .btn-primary {
@@ -94,14 +97,15 @@ body {
 
 .btn-second {
   background-color: #58af9b;
-  border: #58af9b;
+  border: 1px solid  #58af9b;
 }
+
 .btn-second:hover {
   background-color:  #fff;
-  border: #58af9b;
+  border: 1px solid #58af9b;
   color:#58af9b;
-
 }
+
 .first-content {
   display: flex;
 }
@@ -134,8 +138,18 @@ body {
   display: inline;
   float: left;
   line-height: 35px;   /*  centralizar item no círculo */
+  margin:10px 10px 10px 2px;
 }
 
+.link-social-media {
+  color: #95a5a6;
+}
+
+.link-social-media:hover .item-social-media{
+  background-color: #58af9b;
+  color: #fff;
+  border-color:#58af9b;
+}
 .item-social-media a{
   color: #95a5a6;
   text-align: center;
@@ -150,12 +164,35 @@ body {
 
 .form input {
   height: 45px;
+  width: 100%;
   border: none;
   background-color: #ecf0f1;
-  margin: 8px;
 }
 
+.label-input {
+  display: flex;
+  align-items: center;
+  margin: 8px;
+  background-color: #ecf0f1;
+  border-radius: 20px;
+}
+
+.icon-modify {
+  color: #7f8c8d;
+  padding: 0 5px;
+}
+
+
+/* SECOND CONTENT */
 .second-content{
   position: absolute;
   display: none;
+}
+
+.second-content .first-column {
+  order:2;
+}
+
+.second-content .second-column {
+  order:1;
 }
