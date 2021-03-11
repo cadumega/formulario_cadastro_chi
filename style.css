@@ -40,7 +40,7 @@ body {
   height: 100%;
   border-radius: 15px;
 
-  /* left: 60%; */
+  left: 60%;
 }
 
 .title {
@@ -52,6 +52,7 @@ body {
 
 .title-primary {
   color: #fff;
+  margin: 12px;
 }
 
 .title-second {
@@ -66,6 +67,8 @@ body {
 
 .description-primary {
   color: #fff;
+  font-size: 14px;
+  letter-spacing: 2px;
 }
 .description-second {
   color: #7f8c8d;
@@ -88,6 +91,8 @@ body {
 .btn-primary {
   background-color: transparent;
   border: 1px solid #fff;
+  margin: 15px;
+
 }
 
 .btn-primary:hover{
@@ -98,6 +103,7 @@ body {
 .btn-second {
   background-color: #58af9b;
   border: 1px solid  #58af9b;
+  margin: 10px;
 }
 
 .btn-second:hover {
@@ -161,7 +167,6 @@ body {
   display: flex;
   flex-direction: column;
   width: 55%;
-  
 }
 
 .form input {
@@ -177,7 +182,10 @@ body {
   margin: 8px;
   background-color: #ecf0f1;
   border-radius: 20px;
+  letter-spacing: 2px;
 }
+
+
 
 .icon-modify {
   color: #7f8c8d;
@@ -188,7 +196,7 @@ body {
 /* SECOND CONTENT */
 .second-content{
   position: absolute;
-  display: none;
+  display: flex;
 }
 
 .second-content .first-column {
@@ -197,4 +205,16 @@ body {
 
 .second-content .second-column {
   order:1;
+}
+
+.password {
+  color: #34495e;
+  font-size: 14px;
+  text-align: center;
+  margin: 5px;
+  letter-spacing: 1px;
+
+}
+.password::first-letter {
+  text-transform: capitalize;
 }
