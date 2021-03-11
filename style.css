@@ -72,6 +72,7 @@ body {
 }
 .description-second {
   color: #7f8c8d;
+  letter-spacing: 1px;
 }
 
 .btn {
@@ -207,10 +208,12 @@ body {
 
 .second-content .first-column {
   order:2;
+  z-index: -1;
 }
 
 .second-content .second-column {
   order:1;
+  z-index: -1;
 }
 
 .password {
@@ -224,3 +227,25 @@ body {
 .password::first-letter {
   text-transform: capitalize;
 }
+
+textarea:focus, input:focus, select:focus {
+
+  outline: 0;
+} 
+
+.sign-in-js .first-content.first-column
+.sign-in-js .first-content .second-column {
+  z-index: -1;
+}
+
+sign-in-js ,.second-content. .first-column
+.sign-in-js ,.second-content.second-column {
+  z-index: 11;
+}
+
+.sign-in-js .content::before {
+  left: 60%;
+}
+
+.sign-in-js, .second-content .first-column
+
