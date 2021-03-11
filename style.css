@@ -108,6 +108,7 @@ body {
 
 .first-content {
   display: flex;
+  display: none;
 }
 
 .first-column {
@@ -149,6 +150,7 @@ body {
   background-color: #58af9b;
   color: #fff;
   border-color:#58af9b;
+  transition: background-color 1s;
 }
 .item-social-media a{
   color: #95a5a6;
