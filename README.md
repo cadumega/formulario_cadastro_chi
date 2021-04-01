@@ -107,7 +107,7 @@ ___ intro html
 </html>
 ```
 
-_parte 2  
+# _parte 2  
 Acertar classes diferentes no html 
 ```
   <div class="container">
@@ -118,7 +118,7 @@ Acertar classes diferentes no html
           <p class="description">please login with your personal info</p>            <button class="btn btn-primary">sign in</button>
       </div>  
 ```
-CSS
+## CSS
 ```
 /* importação de fonte */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
@@ -226,7 +226,7 @@ background-color: transparent;
 }
 ```
 
-parte 3
+# parte 3
 https://fontawesome.com/
 <script src="https://kit.fontawesome.com/265e216f38.js" crossorigin="anonymous"></script>
 kit de fontes,ícones, só colar no html abaixo da referência ao html
